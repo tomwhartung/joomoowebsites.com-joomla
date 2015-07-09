@@ -1,0 +1,27 @@
+#
+# Documentation is here: http://git-scm.com/docs/gitignore
+#
+configuration.php
+language/en-GB/en-GB.mod_menu_idmygadget.ini
+language/en-GB/en-GB.mod_menu_idmygadget.sys.ini
+language/en-GB/en-GB.tpl_jmws_beez3_idmygadget.ini
+language/en-GB/en-GB.tpl_jmws_beez3_idmygadget.sys.ini
+language/en-GB/en-GB.tpl_jmws_protostar_idmygadget.ini
+language/en-GB/en-GB.tpl_jmws_protostar_idmygadget.sys.ini
+language/en-GB/en-GB.tpl_jmws_tomh_idmygadget.ini
+language/en-GB/en-GB.tpl_jmws_tomh_idmygadget.sys.ini
+
+modules/mod_menu_idmygadget
+
+templates/jmws_beez3_idmygadget
+templates/jmws_beez3_idmygadget/
+templates/jmws_protostar_idmygadget
+templates/jmws_protostar_idmygadget/
+templates/jmws_tomh_idmygadget
+templates/jmws_tomh_idmygadget/
+
+/logs/
+/nbproject/
+*.swp
+tmp/
+
