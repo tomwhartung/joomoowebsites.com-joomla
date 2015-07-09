@@ -20,8 +20,9 @@ templates/jmws_protostar_idmygadget/
 templates/jmws_tomh_idmygadget
 templates/jmws_tomh_idmygadget/
 
+/cache/
 /logs/
 /nbproject/
 *.swp
-tmp/
+/tmp/
 
