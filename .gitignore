@@ -2,6 +2,9 @@
 # Documentation is here: http://git-scm.com/docs/gitignore
 #
 configuration.php
+idMyGadget
+resume
+
 language/en-GB/en-GB.mod_menu_idmygadget.ini
 language/en-GB/en-GB.mod_menu_idmygadget.sys.ini
 language/en-GB/en-GB.tpl_jmws_beez3_idmygadget.ini
