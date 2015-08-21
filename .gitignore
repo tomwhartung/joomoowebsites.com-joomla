@@ -11,8 +11,8 @@ language/en-GB/en-GB.tpl_jmws_beez3_idmygadget.ini
 language/en-GB/en-GB.tpl_jmws_beez3_idmygadget.sys.ini
 language/en-GB/en-GB.tpl_jmws_protostar_idmygadget.ini
 language/en-GB/en-GB.tpl_jmws_protostar_idmygadget.sys.ini
-language/en-GB/en-GB.tpl_jmws_tomh_idmygadget.ini
-language/en-GB/en-GB.tpl_jmws_tomh_idmygadget.sys.ini
+language/en-GB/en-GB.tpl_jmws_protostar_tomh_idMyGadget.ini
+language/en-GB/en-GB.tpl_jmws_protostar_tomh_idMyGadget.sys.ini
 
 libraries/vendor/jmws_idMyGadget_for_joomla
 modules/mod_menu_idmygadget
@@ -21,8 +21,8 @@ templates/jmws_beez3_idmygadget
 templates/jmws_beez3_idmygadget/
 templates/jmws_protostar_idmygadget
 templates/jmws_protostar_idmygadget/
-templates/jmws_tomh_idmygadget
-templates/jmws_tomh_idmygadget/
+templates/jmws_protostar_tomh_idMyGadget
+templates/jmws_protostar_tomh_idMyGadget/
 
 /cache/
 /logs/
