@@ -1,3 +1,10 @@
+#!/bin/sh
+#
+# Fix the permissions we see in Admin -> System -> System Information -> Folder Permissions
+#
+sudo mkdir cache logs tmp 2>/dev/null
+sudo chgrp -R www-data *
+
 sudo chmod 775 administrator/components
 sudo chmod 775 administrator/language
 sudo chmod 775 administrator/language/en-GB
@@ -36,3 +43,5 @@ sudo chmod 775 templates
 sudo chmod 775 configuration.php
 sudo chmod 775 cache
 sudo chmod 775 administrator/cache
+sudo chmod 775 logs
+sudo chmod 775 tmp
