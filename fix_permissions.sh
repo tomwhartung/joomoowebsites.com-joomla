@@ -3,6 +3,7 @@
 # Fix the permissions we see in Admin -> System -> System Information -> Folder Permissions
 #
 sudo mkdir cache logs tmp 2>/dev/null
+sudo chown tomh cache logs tmp
 sudo chgrp -R www-data *
 
 sudo chmod 775 administrator/components
