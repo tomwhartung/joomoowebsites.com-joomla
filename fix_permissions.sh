@@ -5,7 +5,15 @@
 sudo mkdir cache logs tmp 2>/dev/null
 sudo chown tomh cache logs tmp
 sudo chgrp -R www-data *
-
+#
+# Ensure configuration.php is writable ...
+#
+sudo chmod 775 .
+sudo chmod 775 configuration.php
+sudo chmod 775 ../gitignored/configuration.php
+#
+# Now do the directories
+#
 sudo chmod 775 administrator/components
 sudo chmod 775 administrator/language
 sudo chmod 775 administrator/language/en-GB
@@ -41,7 +49,6 @@ sudo chmod 775 plugins/authentication
 sudo chmod 775 plugins/captcha
 sudo chmod 775 plugins/twofactorauth
 sudo chmod 775 templates
-sudo chmod 775 configuration.php
 sudo chmod 775 cache
 sudo chmod 775 administrator/cache
 sudo chmod 775 logs
