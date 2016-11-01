@@ -40,6 +40,7 @@ sudo chmod 775 plugins/editors-xtd
 sudo chmod 775 plugins/system
 sudo chmod 775 plugins/content
 sudo chmod 775 plugins/finder
+sudo chmod 775 plugins/installer
 sudo chmod 775 plugins/search
 sudo chmod 775 plugins/quickicon
 sudo chmod 775 plugins/extension
